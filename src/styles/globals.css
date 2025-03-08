@@ -79,20 +79,24 @@
 			padding: 0;
 			justify-content: end;
 		}
-
-		a {
-			color: inherit;
-			text-decoration: none;
-			font-weight: 500;
-
-			&:hover,
-			&:focus {
-				text-decoration: underline;
-				text-decoration-thickness: 0.07lh;
-				text-underline-offset: 0.17lh;
-			}
-		}
 	}
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	font-weight: 500;
+
+	&:hover,
+	&:focus {
+		text-decoration: underline;
+		text-decoration-thickness: 0.07lh;
+		text-underline-offset: 0.17lh;
+	}
+}
+
+.card a {
+	font-weight: 700;
 }
 
 h2 {
@@ -100,6 +104,16 @@ h2 {
 	font-weight: 700;
 	line-height: 1;
 	text-align: left;
+}
+
+.h-screen h2 {
+	font-weight: 700;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.5rem;
+	font-weight: 700;
 }
 
 details {
